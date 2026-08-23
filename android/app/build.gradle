@@ -1,8 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    // The custom bridge sources live at android/ so the repository remains easy to inspect.
-    sourceSets { main.java.srcDirs += ['../'] }
     namespace "it.mauriziogusti.interpreteduo"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
